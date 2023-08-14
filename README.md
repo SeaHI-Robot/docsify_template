@@ -1,4 +1,4 @@
-# ReadMe
+# README
 
 > 我的docsify工程文件模板
 >
