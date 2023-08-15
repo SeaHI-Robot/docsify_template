@@ -63,6 +63,8 @@
             mergeNavbar: true,
             // 切换页面后是否自动跳转到页面顶部
             auto2top: true,
+            // 开启busuanzi, 统计网站访问量
+            busuanzi: true,
             // 搜索设置
             search: {
                 maxAge: 86400000,// 过期时间，单位毫秒，默认一天
@@ -85,7 +87,19 @@
                 fontsize:'0.9em',
                 color:'rgb(90, 90, 90)',
                 language:'chinese'
-              }
+            },
+            // 文章最后更新时间
+            timeUpdater: {
+                text: "<div align='right' width='100%' style='color:gray; font-s1ze:16px; margin--top:l0px;'> Last Update:  {docsify-updated}</div>",
+                formatUpdated:"{YYYY}-{MM}-{DD} {HH}:{mm}",
+            },
+            // 前后翻页
+            pagination: {
+                previousText: 'Previous Page',
+                nextText: 'Next Page',
+                crossChapter: true,
+                crossChapterText: true,
+            },
         }
 
     // 添加插件
@@ -102,10 +116,21 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <!-- 字数统计 -->
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-    <!-- 接入gittalk, 实现评论区功能 -->
-    <!--  -->
+    <!-- docsify-kroki插件, 调用meimaid和plantuml等很多图形描述语言的api, 实现在docsify中的渲染  https://github.com/zuisong/docsify-kroki-->
+    <script src="//unpkg.com/docsify-kroki"></script> 
+    <!-- busuanzi 不蒜子, 统计网站访问量  https://busuanzi.ibruce.info/-->  <!-- https://www.npmjs.com/package/docsify-busuanzi -->
+    <script src="https://unpkg.com/docsify-busuanzi@1.0.1/dist/docsify-busuanzi.min.js"></script>
+    <!-- 显示文章最后更新时间 -->   <!-- https://www.npmjs.com/package/docsify-updated -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.js"></script>
+    <!-- 前后页 -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+   
+    <!-- 接入gittalk, 实现评论区功能, 使用仓库里的issue -->
+    <!-- https://www.npmjs.com/package/docsify-gitalk -->   <!-- https://www.bilibili.com/video/BV1vM4y1D7aL/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc-->
     
-    <!-- https://www.bilibili.com/video/BV1GT411s7bQ/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc -->
+    <!-- 内嵌显示pdf -->
+    <!-- https://github.com/lazypanda10117/docsify-pdf-embed -->    <!-- https://www.bilibili.com/video/BV1GT411s7bQ/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc -->
+    
 </body>
 
 
