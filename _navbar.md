@@ -1,9 +1,10 @@
 <!-- _navbar.md -->
 
-* [哔哩哔哩](https://space.bilibili.com/1100962821)
+* [bilibili](https://bilibili.com/)
 
-* [枫雨在线](https://www.ifyzx.com)
+* [Github](https://github.com/)
 
 * 友情链接
-  * [小枫社长](https://space.bilibili.com/1100962821)
-  * [枫雨在线](https://www.ifyzx.com)
+  * [SeaHIPage](https://space.bilibili.com/1100962821)
+  * [baidu](https://baidu.com)
+  * [Gitee](https://gitee.com/)
