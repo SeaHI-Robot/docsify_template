@@ -16,8 +16,9 @@
 ## Demo演示
 https://seahi-robot.github.io/docsify_template/#/
 
-## Sponsor
+## Sponsor/赞助
 如果有帮助你的话请star这个仓库(点击右上角的`star`)
+
 
 #### Buy Me a cup of Coffee（谢谢大爹）
 
