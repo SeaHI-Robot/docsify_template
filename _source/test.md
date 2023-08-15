@@ -8,6 +8,11 @@
 
 *哎呦~~~*
 
+<img src="_media/brave_kun.png" style="zoom:33%;" />
+<img src="_media/seahipage-logo.svg" style="zoom:13%;" />
+
+
+
 `blablablabla`
 
 ## 二级标题
@@ -17,8 +22,6 @@
 第一次鸭变成这样的我
 
 ```
-代码块
-
 不管我怎么去否认~~~
 ```
 
@@ -29,6 +32,10 @@
 print("Hello World!")
 
 ```
+
+
+[korki.io](https://kroki.io)
+
 
 测试mermiad渲染
 ```mermaid
@@ -50,8 +57,9 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 @enduml
 ```
+测试plantuml渲染思维导图
 
-```
+```plantuml
 @startmindmap
 * Java基础
 ** Java发展历史
@@ -102,8 +110,4 @@ Alice <-- Bob: another authentication Response
 @endmindmap
 
 ```
-
-<img src="_media/brave_kun.png" style="zoom:33%;" />
-<img src="_media/seahipage-logo.svg" style="zoom:13%;" />
-
 
