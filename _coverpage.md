@@ -21,9 +21,9 @@
 
 
 <!-- 添加首页背景图片 -->
-![](_media/brave_kun.png)
+<!-- ![](_media/brave_kun.png) -->
 
 
 <!-- 背景色 -->
 
-<-- ![color](#f0f0f0) -->
+ <!-- ![color](#f0f0f0)  -->
