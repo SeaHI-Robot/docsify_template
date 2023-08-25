@@ -102,7 +102,7 @@
                 crossChapter: true,
                 crossChapterText: true,
             },
-            // gitalk评论
+            // gitalk评论区
             // gitalk: {
             //     clientID: '',
             //     clientSecret: '',
@@ -110,8 +110,23 @@
             //     owner: '',
             //     admin: ['']
             // },
-            // disqus评论
-            // disqus: 'short-name'
+            // disqus评论区
+            // disqus: 'short-name',
+            // giscus评论区
+            // giscus:{
+            //     repo: "mg0324/docsify-note-01",
+            //     repoId: "R_kgDOI4bELQ",
+            //     category: "Announcements",
+            //     categoryId: "DIC_kwDOI4bELc4CT_Su",
+            //     mapping: "url",
+            //     reactionsEnabled: "0",
+            //     strict: "1",
+            //     emitMetadata: "0",
+            //     inputPosition: "bottom",
+            //     theme: "light",
+            //     lang: "zh-CN",
+            //     loading: "lazy"
+            // },
         }
 
     // 添加插件  https://docsify.js.org/#/zh-cn/awesome?id=plugins
@@ -160,12 +175,12 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
     <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
    
-    <!-- 内嵌显示pdf -->
-    <!-- https://github.com/lazypanda10117/docsify-pdf-embed    https://www.bilibili.com/video/BV1GT411s7bQ/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc -->
+    <!-- 内嵌显示pdf 
+        https://github.com/lazypanda10117/docsify-pdf-embed    https://www.bilibili.com/video/BV1GT411s7bQ/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc -->
     
     <!-- 接入gittalk, 实现评论区功能; 
-        只能一个仓库对应一个评论区，即一整个docsify文档所有页面共享一个评论区，不能每个文档都有一个独立的评论区 -->
-    <!-- https://www.npmjs.com/package/docsify-gitalk   https://www.bilibili.com/video/BV1vM4y1D7aL/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc-->
+        只能一个仓库对应一个评论区，即一整个docsify文档所有页面共享一个评论区，不能每个文档都有一个独立的评论区 
+        https://www.npmjs.com/package/docsify-gitalk   https://www.bilibili.com/video/BV1vM4y1D7aL/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc-->
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
@@ -174,6 +189,13 @@
     <!-- 接入disqus评论区  https://disqus.com/  
         评论时要用邮箱验证，体验一般，登陆要翻墙-->
     <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
+
+    <!-- 接入giscus 
+        https://www.bilibili.com/video/BV1rR4y1q7y2/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc 
+        https://www.npmjs.com/package/docsify-giscus -->
+ 
+    <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.2/dist/giscus.css">
+    <script src="https://unpkg.com/docsify-giscus@1.0.2/dist/docsify-giscus.min.js"></script> -->
     
     
 </body>
