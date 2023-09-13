@@ -108,6 +108,15 @@
                 color: "var(--theme-color, #42b983)",
                 height: "3px",
             },
+            // 回到顶部
+            docsifyBackTop: {
+                size: 32,   //数值，组件大小，默认值32
+                bottom: 15, //数值，组件底部偏移距离，默认值15
+                right: 15,  //数值，组件右侧偏移距离，默认值15。
+                logo: 'top',    //Log0:字符串或5Vg矢量图代码，默认为svg代码图标。
+                bgColor: '#15253e'  //背景颜色，#fff、pink等，logo为svg图标时，不填。
+            },
+
             // gitalk评论区
             // gitalk: {
             //     clientID: '',
@@ -133,6 +142,24 @@
                 lang: "zh-CN",
                 loading: "lazy"
             },
+            // 显示文档贡献者
+            // contributors: {
+            //     repo: '',
+            //     ignores: [],
+            //     style: {
+            //         color: '#ffffff',
+            //         bgColor: '#404040'
+            //     },
+            //     image:{
+            //         size: 30,
+            //         isRound: true,
+            //         margin: '0.5em'
+            //     },
+            //     load: {
+            //         isOpen: true,
+            //         color: "#009999"
+            //     }
+            // }
 
         }
 
@@ -172,7 +199,11 @@
    
     <!-- 阅读进度条 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
-   
+    
+    <!-- 回到顶部 -->
+
+    <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+
     <!-- latex公式渲染支持 docsify-katex -->
     <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
@@ -200,12 +231,14 @@
         评论时要用邮箱验证，体验一般，登陆要翻墙 -->
     <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
 
-    <!-- 接入giscus 有推荐使用，大大滴好，有很多配置选项可以自定义配置 https://giscus.app/zh-CN 
+    <!-- 接入giscus 推荐使用，大大滴好，有很多配置选项可以自定义配置 https://giscus.app/zh-CN 
         https://www.bilibili.com/video/BV1rR4y1q7y2/?spm_id_from=333.788&vd_source=489a733550a7c846fcce2e3eb3a683cc 
         https://www.npmjs.com/package/docsify-giscus -->
- 
     <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.2/dist/giscus.css">
     <script src="https://unpkg.com/docsify-giscus@1.0.2/dist/docsify-giscus.min.js"></script>
+
+    <!-- docsify-contributors 显示文档贡献者 -->
+    <!-- <script src="//gcore.jsdelivr.net/npm/docsify-contributors@latest/dist/index.min.js"></script> -->
     
     
 </body>
