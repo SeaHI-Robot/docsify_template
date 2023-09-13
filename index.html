@@ -102,6 +102,12 @@
                 crossChapter: true,
                 crossChapterText: true,
             },
+            // 进度条
+            progress:{
+                position: "top",
+                color: "var(--theme-color, #42b983)",
+                height: "3px",
+            },
             // gitalk评论区
             // gitalk: {
             //     clientID: '',
@@ -163,7 +169,10 @@
     
     <!-- 前后页 -->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
+   
+    <!-- 阅读进度条 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+   
     <!-- latex公式渲染支持 docsify-katex -->
     <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
