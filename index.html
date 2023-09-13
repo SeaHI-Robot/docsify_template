@@ -102,19 +102,19 @@
                 crossChapter: true,
                 crossChapterText: true,
             },
-            // 进度条
+            // 进度条  只有vue主题才有显示
             progress:{
                 position: "top",
                 color: "var(--theme-color, #42b983)",
                 height: "3px",
             },
-            // 回到顶部
+            // 回到顶部按钮  <!-- 🔝 -->
             docsifyBackTop: {
-                size: 32,   //数值，组件大小，默认值32
-                bottom: 15, //数值，组件底部偏移距离，默认值15
-                right: 15,  //数值，组件右侧偏移距离，默认值15。
-                logo: 'top',    //Log0:字符串或5Vg矢量图代码，默认为svg代码图标。
-                bgColor: '#15253e'  //背景颜色，#fff、pink等，logo为svg图标时，不填。
+                size: 32,           	// 数值，组件大小，默认值32。
+                bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
+                right: 15,          	// 数值，组件右侧偏移距离，默认值15。
+                logo: '🔝',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
+                bgColor: '\#2096ff'    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
             },
 
             // gitalk评论区
@@ -201,7 +201,6 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
     
     <!-- 回到顶部 -->
-
     <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
 
     <!-- latex公式渲染支持 docsify-katex -->
